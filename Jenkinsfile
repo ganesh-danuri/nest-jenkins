@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/ganesh-danuri/nest-jenkins.git', branch: 'main'
+                git url: 'https://github.com/ganesh-danuri/nest-jenkins.git', branch: 'master'
             }
         }
 
